@@ -1,0 +1,27 @@
+{
+    "name": "liujiekkk/amqp-lib",
+    "description": "Php amqp libary.",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "jackie",
+            "email": "king.2oo8@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lj\\Amqp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lj\\Amqp\\Tests\\": "tests/"
+        }
+    },
+	"scripts": {},
+	"require": {
+        "react/event-loop": "^1.0",
+        "react/promise": "^2.1 || ^1.2"
+    }
+}
