@@ -311,6 +311,14 @@ abstract class AbstractConnection
     }
     
     /**
+     * @return int
+     */
+    protected function getFrameMax()
+    {
+        return $this->frameMax;
+    }
+    
+    /**
      * Reads data from stream to {@link readBuffer}.
      *
      * @return boolean

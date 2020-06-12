@@ -35,6 +35,13 @@ trait ConnectionMethods {
      * @return Buffer
      */
     abstract public function getReadBuffer(): Buffer;
+    
+    /**
+     * Returns frame max size.
+     *
+     * @return int
+     */
+    abstract protected function getFrameMax();
 
     /**
      * auth user provileges
